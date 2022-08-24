@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,15 +11,6 @@ root.render(
   </React.StrictMode>
 );
 
-const firebaseConfig = {
-  apiKey: "AIzaSyDMMknRpO0LphNq9_tkAmLf6g4zhJh3yzw",
-  authDomain: "ibrainnyc-b475d.firebaseapp.com",
-  projectId: "ibrainnyc-b475d",
-  storageBucket: "ibrainnyc-b475d.appspot.com",
-  messagingSenderId: "563589423427",
-  appId: "1:563589423427:web:9c085da6e5a45c2eb18ff6",
-  measurementId: "G-D1G3R5GZWY"
-};
 
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
