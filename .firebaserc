@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "ibrainnyc-b475d"
+    "default": "ibrainnyc-b475d",
+    "ibrainnyc": "ibrainnyc-b475d"
   }
 }
