@@ -51,14 +51,14 @@ function signInWithGoogle(){
 }
 function SignIn(){
   return(
-    <div className="login-UI">
-    <div className ="bg-overlay">
-      <div class="video">
-        <video autoplay loop class="fillWidth">
-            <source src="src/resources/login_video.mp4"/>Your browser is not supported. Please upgrade your browser to view content.
-          </video>
+    <div class ="login-UI">
+      <div className ="video-block">
+        <div class="video">
+          <video autoplay loop class="fillWidth">
+              <source src="src/resources/login_video.mp4"/>Your browser is not supported. Please upgrade your browser to view content.
+            </video>
+        </div>
       </div>
-    </div>
     <div class="login-block">
       <img></img>
       <h3>Parent Portal</h3>
